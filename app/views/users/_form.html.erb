@@ -1,12 +1,12 @@
-<%= form_with(model: fornecedor) do |form| %>
-  <% if fornecedor.errors.any? %>
+<%= form_with(model: user) do |form| %>
+  <% if user.errors.any? %>
     <div id="error_explanation" class="panel panel-danger mensagem-erro-cabecalho">
            <div class="panel-heading">
                <h3 class="panel-title"><%= pluralize(usererrors.count, "error(s)") %> ao salvar user:</h3>
             </div>
            <div class="panel-body">
              <ul>
-             <% fornecedor.errors.full_messages.each do |message| %>
+             <% user.errors.full_messages.each do |message| %>
                <li><%= message %></li>
              <% end %>
              </ul>
@@ -42,6 +42,4 @@
             <input type="submit" name="commit" class="btn btn-primary colorprimarybtn" value="Salvar " data-disable-with="Salvando" />
           </div>
       </div>
-   <% end %>  
-
    <% end %>  
