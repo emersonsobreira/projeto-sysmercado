@@ -1,24 +1,20 @@
-# README
+# Sysmercado
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Descrição
+O **Sysmercado** é um sistema de gerenciamento de fornecedores, produtos e usuários, com funcionalidades para adição, edição, exclusão e visualização de dados. O sistema também inclui autenticação de login e a geração de relatórios em PDF.
 
-Things you may want to cover:
+## Funcionalidades Principais
+- **Login**: Sistema de autenticação para controle de acesso.
+- **Gerenciamento de Usuários, Fornecedores e Produtos**:
+  - Adicionar, editar, excluir e visualizar dados.
+- **Geração de PDF**: Exportar relatórios completos em PDF.
 
-* Ruby version
+## Tecnologias Utilizadas
+- **Ruby on Rails**: Back-end e lógica do sistema.
+- **Bootstrap**: Interface responsiva e estilização.
+- **Ruby**: Linguagem principal para o desenvolvimento do projeto.
 
-* System dependencies
+## Instalação
+Clone o repositório:
+   git clone https://github.com/emersonsobreira/projeto-sysmercado.git
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
